@@ -5,7 +5,7 @@ import * as THREE from 'three';
 
 const Cyl = () => {
   const tex = useTexture('../download.jpg');
-  const cylRef = useRef(null); // renamed from Cyl to cylRef
+  const cylRef = useRef(null); 
 
   useFrame((state, delta) => {
     if (cylRef.current) {
